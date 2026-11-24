@@ -1,0 +1,48 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+keystore/
+*.jks
+*.keystore
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+pubspec.lock
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+secrets.properties
+
+# Native build output
+**/.cxx/
+**/.kotlin/
+**/captures/
+
+# Coverage and test output
+coverage/
+*.lcov
+
+# Nested Android, Flutter, Gradle and code-generation output
+**/build/
+**/build/generated/
+**/.gradle/

@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ShowsAPP" parent="Theme.Material3.DayNight">  <!-- Material 3 parent -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize for DarkActionBar look (optional) -->
+        <item name="android:windowActionBarOverlay">true</item>  <!-- For overlay effect -->
+
+
+    </style>
+
+    <style name="Theme.ShowsAPP.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ShowsAPP.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.ShowsAPP.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+<!--    <style name="SplashTheme" parent="Theme.Material3.NoActionBar">-->
+<!--        <item name="android:windowBackground">@color/your_splash_background_color</item> &lt;!&ndash; Change this to your desired color &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item> &lt;!&ndash; Make status bar transparent &ndash;&gt;-->
+<!--    </style>-->
+
+</resources>
